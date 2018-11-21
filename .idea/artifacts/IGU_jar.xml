@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IGU:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IGU_jar</output-path>
+    <root id="archive" name="IGU.jar">
+      <element id="module-output" name="IGU" />
+    </root>
+  </artifact>
+</component>
