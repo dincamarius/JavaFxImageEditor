@@ -314,7 +314,7 @@ public class MainController
                 public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
                     System.out.println("Crop toggle button: "+newValue);
                     String onTgl = "-fx-background-color: lightskyblue";
-                   // cropTgl.setStyle(newValue ?  onTgl : null);
+                    cropTgl.setStyle(newValue ?  onTgl : null);
 
                     if (newValue) {
                         Rectangle cropRect = new Rectangle(150,150);
